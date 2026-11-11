@@ -1,0 +1,23 @@
+PORTFOLIO 5: DISTRIBUTED AND CLOUD DATABASES
+
+Case Study: Pigmenta Ltd
+
+Cloud Platform: MongoDB Atlas
+Cloud Provider: Google Cloud Platform (GCP)
+Deployment Region: Belgium (europe-west1)
+Deployment Type: Replica Set – 3 Nodes
+
+1. Cloud Deployment
+Pigmenta's NoSQL database was deployed using MongoDB Atlas, a cloud-hosted database service.
+
+2. Database Replication
+The deployment uses a three-node replica set. MongoDB replica sets maintain multiple copies of data across members to support redundancy and availability.
+
+3. Availability
+The replica set architecture supports continued database availability through automatic failover when an eligible primary node becomes unavailable.
+
+4. Scalability
+Cloud deployment provides a foundation for scaling database resources as Pigmenta Ltd's data and workload grow.
+
+5. Conclusion
+Cloud database deployment and replication provide Pigmenta Ltd with a flexible foundation for managing business data.
