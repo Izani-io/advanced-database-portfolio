@@ -1,0 +1,18 @@
+# Query Optimisation Analysis – Pigmenta Ltd
+
+**Database:** PostgreSQL 18  
+**Table:** products  
+**Indexed column:** sku  
+**Index created:** idx_products_sku
+
+**Objective:** To examine how indexing affects query execution when retrieving a product using its SKU.
+
+**Before indexing:** EXPLAIN ANALYZE was used to inspect the execution plan before creating the index.
+
+**Index implementation:** An index named `idx_products_sku` was created on the products table's sku column.
+
+**After indexing:** EXPLAIN ANALYZE was executed again to inspect the query plan after index creation.
+
+**Observation:** The products table currently contains only four records. PostgreSQL may choose a sequential scan instead of using the index because scanning a very small table can be more efficient.
+
+**Conclusion:** Indexing provides a way to improve searches on frequently queried columns as the database grows. However, the execution plan and table size must be considered when evaluating its benefits.
