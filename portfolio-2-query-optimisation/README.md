@@ -1,32 +1,38 @@
-
 # Portfolio 2: Query Processing and Optimisation
 
-## 1. Project Overview
-This project demonstrates SQL query development, data retrieval, analysis and optimisation using the Pigmenta LTD relational database.
+## Case Study
+Pigmenta Ltd – Paint Manufacturing and Distribution Database.
 
-## 2. Database Environment
+## Database Environment
 - PostgreSQL 18
 - pgAdmin 4
-- Pigmenta LTD Database
 
-## 3. Query Operations
-- SELECT statements
-- WHERE filtering and ORDER BY sorting
-- INNER JOIN and LEFT JOIN
-- Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
-- GROUP BY and HAVING
-- Subqueries
-- Common Table Expressions (CTEs)
-- Database Views
+## 1. Basic SQL Queries
+Implemented queries for:
+- Retrieving product records.
+- Filtering products by price and stock levels.
+- Joining products with categories.
+- Retrieving customer records.
 
-## 4. Query Optimisation
-- Execution plan analysis
-- EXPLAIN and EXPLAIN ANALYZE
-- Index creation
-- Query performance comparison
+## 2. Advanced SQL Queries
+Implemented:
+- Aggregate functions (COUNT, AVG and SUM).
+- GROUP BY and ORDER BY.
+- Joins across customers, orders and products.
+- Revenue calculations.
+- Order analysis.
 
-## 5. Deliverables
-- SQL query scripts
-- Query execution results
-- Query optimisation analysis
-- Performance evidence screenshots
+## 3. Query Processing and Optimisation
+- Used EXPLAIN ANALYZE to inspect query execution plans.
+- Created an index on the products table's SKU column.
+- Verified the created index.
+- Compared execution plans before and after indexing.
+
+## 4. Database Views
+Created and queried `product_inventory_view` to simplify access to product inventory information.
+
+## 5. Evidence and SQL Scripts
+This folder contains SQL scripts, query result screenshots, execution plans, index verification and optimisation analysis.
+
+## Conclusion
+This portfolio demonstrates practical SQL querying, query processing, indexing and database optimisation using the Pigmenta Ltd database.
